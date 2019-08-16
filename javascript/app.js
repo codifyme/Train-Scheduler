@@ -2,12 +2,12 @@ $(document).ready(function() {
   // Initialize Firebase
 
   var config = {
-    apiKey: 'AIzaSyBmiUwCghjHf2yBrpH8XrLxmV3HXZRQO0w',
-    authDomain: 'clickbutton-8c8df.firebaseapp.com',
+    apiKey: 'AIzaSyAkqmTYGaYTUcriK4W2SBNhCQ3Oo3AEtis',
+    authDomain: 'codewithangel.firebaseapp.com',
     databaseURL: 'https://codewithangel.firebaseio.com',
     projectId: 'codewithangel',
     storageBucket: 'clickbutton-8c8df.appspot.com',
-    messagingSenderId: '676556209977'
+    messagingSenderId: '891764995285'
   };
   firebase.initializeApp(config);
 
