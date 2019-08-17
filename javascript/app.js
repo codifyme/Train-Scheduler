@@ -1,6 +1,9 @@
+// Config object includes API key
+import { config } from './module.js';
 $(document).ready(function() {
   // Initialize Firebase
 
+  /*
   var config = {
     apiKey: 'AIzaSyAkqmTYGaYTUcriK4W2SBNhCQ3Oo3AEtis',
     authDomain: 'codewithangel.firebaseapp.com',
@@ -9,6 +12,7 @@ $(document).ready(function() {
     storageBucket: 'clickbutton-8c8df.appspot.com',
     messagingSenderId: '891764995285'
   };
+  */
   firebase.initializeApp(config);
 
   // Variables
